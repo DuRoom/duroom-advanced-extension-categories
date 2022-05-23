@@ -1,0 +1,35 @@
+{
+    "name": "duroom/duroom-advanced-extension-categories",
+    "description": "Advanced extension categorisation options for admins.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NKDuy",
+            "email": "kn145660@gmail.com"
+        }
+    ],
+    "type": "duroom-extension",
+    "support": {
+      "issues": "https://github.com/DuRoom/duroom-advanced-extension-categories/issues",
+      "source": "https://github.com/DuRoom/duroom-advanced-extension-categories"
+    },
+    "require": {
+        "duroom/core": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DuRoom\\Aec\\": "src/"
+        }
+    },
+    "extra": {
+        "duroom-extension": {
+            "title": "Advanced Extension Categories",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-wrench",
+                "backgroundColor": "#117187",
+                "color": "#fff"
+            }
+        }
+    }
+}
